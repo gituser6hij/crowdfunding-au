@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="293pt" height="400pt" viewBox="0.00 0.00 293.18 400.00">
+<g id="graph0" class="graph" transform="translate(7.695701006148283,384.57084829840346) scale(0.9291606742509133)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-396 289.18,-396 289.18,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterCampaign">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 265.18,-8 265.18,-8 271.18,-8 277.18,-14 277.18,-20 277.18,-20 277.18,-235 277.18,-235 277.18,-241 271.18,-247 265.18,-247 265.18,-247 20,-247 20,-247 14,-247 8,-241 8,-235 8,-235 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="142.59" y="-230.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Campaign</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="10.53,-255 10.53,-384 263.12,-384 263.12,-255 10.53,-255" style=""/>
+<text text-anchor="middle" x="136.82" y="-367.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- Campaign.&lt;Constructor&gt; -->
+<g id="node1" class="node" pointer-events="visible" data-name="Campaign.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="83.53" cy="-196" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="83.53" y="-191.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- Campaign.donate -->
+<g id="node2" class="node" pointer-events="visible" data-name="Campaign.donate">
+
+<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="83.53" cy="-142" rx="36.56" ry="18" style=""/>
+<text text-anchor="middle" x="83.53" y="-137.8" font-family="Times,serif" font-size="14.00" style="">donate</text>
+</g>
+<!-- Campaign.withdraw -->
+<g id="node3" class="node" pointer-events="visible" data-name="Campaign.withdraw">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="83.53" cy="-88" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="83.53" y="-83.8" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- Campaign.payable -->
+<g id="node5" class="node" pointer-events="visible" data-name="Campaign.payable">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="228.12" cy="-88" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="228.12" y="-83.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- Campaign.withdraw&#45;&gt;Campaign.payable -->
+<g id="edge1" class="edge" data-name="Campaign.withdraw-&gt;Campaign.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M132.4,-88C145.39,-88 159.54,-88 172.85,-88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="172.78,-91.5 182.78,-88 172.78,-84.5 172.78,-91.5" style=""/>
+</g>
+<!-- Campaign.checkIfActive -->
+<g id="node4" class="node" pointer-events="visible" data-name="Campaign.checkIfActive">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="83.53" cy="-34" rx="65.95" ry="18" style=""/>
+<text text-anchor="middle" x="83.53" y="-29.8" font-family="Times,serif" font-size="14.00" style="">checkIfActive</text>
+</g>
+<!-- key -->
+<g id="node6" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="148.53,-351 18.53,-351 18.53,-263 148.53,-263 148.53,-351" style=""/>
+<text text-anchor="start" x="68.16" y="-332.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="64.27" y="-312.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="41.73" y="-292.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="28.13" y="-272.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node7" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="255.12,-351 201.12,-351 201.12,-263 255.12,-263 255.12,-351" style=""/>
+<text text-anchor="start" x="218.12" y="-332.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="218.12" y="-312.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="216.12,-287 216.12,-307 241.12,-307 241.12,-287 216.12,-287" style=""/>
+<text text-anchor="start" x="218.12" y="-292.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="218.12,-269 218.12,-285 239.12,-285 239.12,-269 218.12,-269" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge2" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M141.53,-337C169.51,-337 179.53,-337 202.32,-337" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="202.09,-340.5 212.09,-337 202.09,-333.5 202.09,-340.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge3" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M141.53,-317C169.51,-317 179.53,-317 202.32,-317" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="202.09,-320.5 212.09,-317 202.09,-313.5 202.09,-320.5" style=""/>
+</g>
+</g>
+</svg>
