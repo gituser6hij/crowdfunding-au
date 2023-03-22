@@ -1,3 +1,7 @@
+## Add .env
+PRIVATE_KEY=1234abcd
+
+
 ## Getting Started
 
 Create a project using this example:
